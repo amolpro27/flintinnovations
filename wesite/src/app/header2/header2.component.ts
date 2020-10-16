@@ -14,7 +14,7 @@ export class Header2Component implements OnInit {
   };
   public isMenuCollapsed = true;
 
-  @ViewChild("navbarToggler", { static: false }) navbarToggler: ElementRef;
+  @ViewChild("navbarToggler") navbarToggler: ElementRef;
   constructor() {}
 
   navBarTogglerIsVisible() {
