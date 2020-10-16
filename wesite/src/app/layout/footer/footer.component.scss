@@ -1,0 +1,41 @@
+footer {
+  background-color: #1a1a23;
+  color: #fff;
+  font-size: 15px;
+
+  p {
+    margin-bottom: 7px;
+
+    a {
+      color: rgb(197, 204, 212);
+    }
+
+    a:hover {
+      color: #f39c12;
+    }
+  }
+
+  hr {
+    background-color: #f39c12;
+  }
+}
+
+.footer-copyright {
+  background-color: #1a1a23;
+  color: #fff;
+  border-top: 1px solid rgba(235, 235, 235, 0.1);
+}
+
+.list-inline-item {
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.list-inline {
+  margin-top: 6%;
+}
+img{
+  width: 73%;
+  background-color: white;
+  padding: 9px;
+}

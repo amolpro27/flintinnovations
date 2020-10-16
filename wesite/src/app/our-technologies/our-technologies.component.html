@@ -1,0 +1,25 @@
+<br />
+<br />
+<br />
+<section id="contact" class="wow fadeInUp">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our CLients</h2>
+      <p>
+        We provide the different technologies used in the modern era. Sharvay
+        works in different domains like web development and security. The newer
+        innovations and technologies are being provided to our customers. All
+        our customers are happy with the provided services.
+      </p>
+    </div>
+
+    <div class="row contact-info">
+      <div *ngFor="let image of images; let i = index" class="col-md-3">
+        <div class="">
+          <i><img src="{{ image.img }}" alt=""/></i>
+          <h3>{{ image.desc }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

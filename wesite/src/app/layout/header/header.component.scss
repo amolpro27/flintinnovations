@@ -1,0 +1,80 @@
+.logo {
+  width: 60%;
+}
+
+#nav-menu-container {
+  float: right;
+  margin: 0;
+  padding: 20px !important;
+}
+#header {
+  padding: 2px 0 !important;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  ul {
+    list-style-type: none;
+  }
+}
+.nav-button {
+  font-size: 23px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+}
+h1 {
+  span:hover {
+    color: orange;
+  }
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #555;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#toggle-button {
+  display: none;
+}
+@media (max-width: 768px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  #toggle-button {
+    display: block;
+  }
+  #header {
+    height: 62px;
+    position: fixed;
+  }
+}

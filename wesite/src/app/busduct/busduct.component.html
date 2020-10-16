@@ -1,0 +1,165 @@
+<br />
+<br />
+
+<section id="about" class="wow fadeInUp">
+  <div class="container">
+    <div class="section-header">
+      <h2>Entraco Busducts</h2>
+      <p></p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 about-img hover01">
+        <h2 class="content"></h2>
+        <figure>
+          <img src="../../assets/img/busduct/busduct.png" alt="" />
+        </figure>
+      </div>
+      <div class="col-lg-6 content">
+        <ul>
+          <li>
+            <i class="fa fa-check-circle"></i> Online ordering, tracking,
+            notification to the customer
+          </li>
+          <li>
+            <i class="fa fa-check-circle"></i> Quotation, invoice management,
+            printing
+          </li>
+          <li><i class="fa fa-check-circle"></i> Profit and loss reports</li>
+          <li><i class="fa fa-check-circle"></i> Email, SMS integration</li>
+          <li>
+            <i class="fa fa-check-circle"></i> Payment gateway integration.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <p>
+      EntracoBKS bus ducts are proud to present the cutting edge Swiss
+      technology bus duct that is second to none in the world. Our approach to
+      design is revealed in the beautiful simplicity of our products. EntracoBKS
+      bus ducts are the lifeline for every major project from Residential towers
+      to Nuclear plants, IT Parks to Chemical factories, Manufacturing units to
+      Oil refineries, Airports to Seaports, Hospitals to Commercial Malls and
+      much more. EntraçoBKS team and its bus ducts work with the stakeholders to
+      make these projects successful to its fullest potential. Our approach is
+      revealed in the beautiful simplicity of our products that are smart, easy
+      to install and maintenance free. Let us know how we can help you. Below
+      are the properties of the two types of ducts that are: Alluminium and
+      Copper.hii
+    </p>
+    <br />
+    <a href="#/busduct" (click)="show()">
+      <img
+        style="width: 80%; align-items: center;"
+        src="../../assets/img/busduct/busduct.png"
+        alt=""
+      />
+    </a>
+
+    <div
+      [style.display]="showModal ? 'block' : 'none'"
+      class="modal "
+      id="imagemodal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../../assets/img/busduct/busduct.png"
+              id="imagepreview"
+              style="width: 425px; height: 425px;"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default"
+              data-dismiss="modal"
+              (click)="hide()"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about" class="wow fadeInUp">
+    <div class="container contact-form">
+      <div
+        class="form-01 consult-form js-consult-form__content"
+        id="form01"
+        style="bottom: -255px;"
+      >
+        <h2 class="form-01__title">
+          Busducts
+          <h3></h3>
+          <h3></h3>
+        </h2>
+
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtName"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  [(ngModel)]="name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  [(ngModel)]="email"
+                />
+              </div>
+              <!-- <div class="form-group">
+                <select class=" form-control" name="cars" id="cars">
+                  <option value="" disabled selected hidden
+                    >Choose Product</option
+                  >
+                  <option value="1">Product 1</option>
+                  <option value="2">Product 2</option>
+                  <option value="3">Product 3</option>
+                </select>
+              </div> -->
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea
+                  name="txtMsg"
+                  [(ngModel)]="txtmsg"
+                  class="form-control"
+                  placeholder="Please Enter The Current Rating *"
+                  style="width: 100%; height: 100px;"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary btn1">
+                  <a href="{{ gethref() }}">
+                    Submit Enquiry
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>

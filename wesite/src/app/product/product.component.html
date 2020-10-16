@@ -1,0 +1,117 @@
+<br />
+<br />
+
+<section id="about" class="wow fadeInUp">
+  <div class="container">
+    <div class="section-header">
+      <h2>Product Name</h2>
+      <p>
+        We bring together a comprehensive portfolio of implementation services,
+        transformative IT strategy services, world class support, and training
+        and certification so you can become a valued business partner to your
+        stakeholders.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 about-img hover01">
+        <h2 class="content">Order Management System</h2>
+        <figure>
+          <img src="../../assets/img/our-work/order.webp" alt="" />
+        </figure>
+      </div>
+      <div class="col-lg-6 content">
+        <ul>
+          <li>
+            <i class="fa fa-check-circle"></i> Online ordering, tracking,
+            notification to the customer
+          </li>
+          <li>
+            <i class="fa fa-check-circle"></i> Quotation, invoice management,
+            printing
+          </li>
+          <li><i class="fa fa-check-circle"></i> Profit and loss reports</li>
+          <li><i class="fa fa-check-circle"></i> Email, SMS integration</li>
+          <li>
+            <i class="fa fa-check-circle"></i> Payment gateway integration.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <h4 class="content">
+      An order management system (OMS) is an electronic system developed to
+      provide one centralized place to manage orders from all sales channels of
+      an organisation.
+    </h4>
+  </div>
+
+  <section id="about" class="wow fadeInUp">
+    <div class="container contact-form">
+      <div
+        class="form-01 consult-form js-consult-form__content"
+        id="form01"
+        style="bottom: -255px;"
+      >
+        <h2 class="form-01__title">
+          <h3></h3>
+          <h3></h3>
+        </h2>
+
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtName"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  [(ngModel)]="name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  [(ngModel)]="email"
+                />
+              </div>
+              <div class="form-group">
+                <select class=" form-control" name="cars" id="cars">
+                  <option value="" disabled selected hidden
+                    >Choose Product</option
+                  >
+                  <option value="1">Product 1</option>
+                  <option value="2">Product 2</option>
+                  <option value="3">Product 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea
+                  name="txtMsg"
+                  [(ngModel)]="txtmsg"
+                  class="form-control"
+                  placeholder="Your Message *"
+                  style="width: 100%; height: 150px;"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary btn1">
+                  <a href="{{ gethref() }}">
+                    Enquiry
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>

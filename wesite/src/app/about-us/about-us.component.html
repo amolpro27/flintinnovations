@@ -1,0 +1,61 @@
+<section id="services">
+  <div class="container">
+    <div
+      *ngIf="router.url == '/about-us'; else otherBlock"
+      class="section-header"
+    ></div>
+
+    <ng-template #otherBlock>
+      <div class="section-header">
+        <h2>Flint Innovations is...</h2>
+        <p>
+          Electrical power systems have now evolved as comprehensive solutions
+          as the development of electromechanical
+          digital&nbsp;-&nbsp;communicable devices and a variety of configurable
+          software has taken place. The modern technologies are now ready to
+          safeguard and beautify modern living. ‘Flint Innovations’ know how to
+          grace such a development. Starting from conventional electromechanical
+          technologies, Flint Innovations provides end to end high voltage
+          solution to the clients, ably mentored and tutored by world leaders of
+          electrical power industry, SIEMENS. ‘Flint Innovations’ have a good
+          eye for such trends and clients’ needs and hence has built competence
+          in electro-mechanical engineering and design with special skills in
+          nonstandard and customized needs. Mastery in handling software driven
+          modern devices helps them receive customers’ appreciation. The strong
+          internal systems and processes helps ‘Flint Innovations’ to rule the
+          industry, because this is what company envisions: to be a Progressive
+          Leader in the area of Power Transmission and Distribution with leading
+          technologies of the globe.
+        </p>
+      </div>
+    </ng-template>
+
+    <div class="row">
+      <!-- <div class="box wow fadeInRight" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-superpowers"></i></div>
+        <h4 class="title"><a>Technically Advanced</a></h4>
+        <p class="description">
+          Our software development tools and products implement Object-Oriented
+          design & programming. Further, we use the most modern development
+          tools and technologies available on the market today.
+        </p>
+
+        <p></p>
+      </div> -->
+
+      <div class="box wow fadeInRight">
+        <div class="icon"><i class="fa fa-life-ring"></i></div>
+        <h4 class="title"><a> Our Vision</a></h4>
+        <p class="description">
+          ‘Flint Innovations’ sets an objective to be an organization which will
+          rely on innovations to deliver the cutting edge technological
+          advancements happening around the world to our clients in the form of
+          our solutions. We aim to be lucid with the deliverables and abide by
+          those till we deliver, and, maintain the integrity while executing the
+          business. We aim to act as a trusted partner for our clients by
+          establishing the relationship that goes beyond business.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

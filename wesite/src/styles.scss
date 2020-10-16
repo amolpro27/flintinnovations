@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: none;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f9f8fa;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.consult-form {
+  text-align: center;
+  padding: 40px 30px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.form-01 {
+  content: "";
+}
+.form-01__title {
+  font-size: 30px;
+  font-weight: 400;
+  color: #1f1c2f !important;
+  margin-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .js-consult-form .consult-form {
+    left: 20%;
+    right: 20%;
+  }
+  .consult-form {
+    padding: 60px 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .js-consult-form .consult-form {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+  }
+  .form-01__form .form__item.form__item--03 {
+    width: 33.3333%;
+  }
+}
+
+.js-consult-form .consult-form {
+  position: relative;
+}
+
+.btn1 {
+  background-color: #0c2e8a;
+  border: none;
+}
+.btn1:hover {
+  background-color: #f39c12;
+  border: none;
+}

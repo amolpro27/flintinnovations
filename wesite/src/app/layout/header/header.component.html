@@ -1,0 +1,83 @@
+<!--==========================
+             Header
+           ============================-->
+<div id="mySidenav" class="sidenav">
+  <ul>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/home" style="display: inline-block;">Home</a>
+    </li>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/services" style="display: inline-block;">Services</a>
+    </li>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/our-work">Our Work</a>
+    </li>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/about-us">Who We Are</a>
+    </li>
+    <!-- <li routerLinkActive="menu-active"><a routerLink="/blogs">Blogs</a></li> -->
+    <li routerLinkActive="menu-active"><a routerLink="/careers">Careers</a></li>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/our-technologies">Our Technologies </a>
+    </li>
+    <li routerLinkActive="menu-active">
+      <a routerLink="/contact-us">Contact </a>
+    </li>
+    <li routerLinkActive="menu-active"><a routerLink="/support">Support</a></li>
+  </ul>
+</div>
+
+<header id="header">
+  <div class="container">
+    <div id="logo" class="nav-brand pull-left">
+      <span id="toggle-button" class="nav-button" (click)="toggleNav()"
+        >&#9776;</span
+      >
+      <!-- <a class="navbar-brand" href="#">
+        <img class="img-responsive" src="../../../assets/img/logo.png" alt="" />
+      </a> -->
+      <a routerLink="/home" style="display: block;"
+        ><img class="logo" src="../../../assets/img/logo/logo.png"
+      /></a>
+    </div>
+  </div>
+
+  <span class="container">
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li routerLinkActive="menu-active"><a routerLink="/home">Home</a></li>
+        <li routerLinkActive="menu-active">
+          <a routerLink="/services">Services</a>
+        </li>
+        <li routerLinkActive="menu-active">
+          <a routerLink="/our-work">Our Work</a>
+        </li>
+        <li routerLinkActive="menu-active" class="menu-has-children">
+          <a routerLink="#"
+            >About <i class="fa fa-caret-down" aria-hidden="true"></i
+          ></a>
+          <ul class="dropdown">
+            <li routerLinkActive="menu-active">
+              <a routerLink="/about-us">Who We Are</a>
+            </li>
+            <!-- <li routerLinkActive="menu-active"><a routerLink="/blogs">Blogs</a></li> -->
+            <li routerLinkActive="menu-active">
+              <a routerLink="/careers">Careers</a>
+            </li>
+            <li routerLinkActive="menu-active">
+              <a routerLink="/our-technologies">Our Technologies </a>
+            </li>
+            <li routerLinkActive="menu-active">
+              <a routerLink="/contact-us">Contact </a>
+            </li>
+          </ul>
+        </li>
+        <li routerLinkActive="menu-active">
+          <a routerLink="/support">Support</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- #nav-menu-container -->
+  </span>
+</header>
+<!-- #header -->
