@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1604242967731,
+  "timestamp": 1604243265113,
   "index": "https://amolpro27.github.io/flintinnovations/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "https://amolpro27.github.io/flintinnovations/favicon.ico",
         "https://amolpro27.github.io/flintinnovations/index.html",
-        "https://amolpro27.github.io/flintinnovations/main-es2015.5c41346902681b41b14a.js",
-        "https://amolpro27.github.io/flintinnovations/main-es5.5c41346902681b41b14a.js",
+        "https://amolpro27.github.io/flintinnovations/main-es2015.b93e5db39b5cf6be3bb5.js",
+        "https://amolpro27.github.io/flintinnovations/main-es5.b93e5db39b5cf6be3bb5.js",
         "https://amolpro27.github.io/flintinnovations/manifest.webmanifest",
         "https://amolpro27.github.io/flintinnovations/polyfills-es2015.e39d57420bbc09ea6a24.js",
         "https://amolpro27.github.io/flintinnovations/polyfills-es5.50135ddf6e318e8abaaa.js",
         "https://amolpro27.github.io/flintinnovations/runtime-es2015.0dae8cbc97194c7caed4.js",
         "https://amolpro27.github.io/flintinnovations/runtime-es5.0dae8cbc97194c7caed4.js",
-        "https://amolpro27.github.io/flintinnovations/styles.c50eb317b3f0f28499e3.css"
+        "https://amolpro27.github.io/flintinnovations/styles.d8de034713859caaf3a3.css"
       ],
       "patterns": []
     },
@@ -188,16 +188,16 @@
     "https://amolpro27.github.io/flintinnovations/assets/lib/bootstrap/css/bootstrap.min.css": "305e721377afa05c43fb43262e062cda27374cb2",
     "https://amolpro27.github.io/flintinnovations/assets/lib/bootstrap/js/bootstrap.min.js": "a9545831803b1359cfeed47e3b4d6bae68e40e99",
     "https://amolpro27.github.io/flintinnovations/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://amolpro27.github.io/flintinnovations/index.html": "2acd2daf7d51d28bdf56ff8b405d2ab1beee6d23",
-    "https://amolpro27.github.io/flintinnovations/main-es2015.5c41346902681b41b14a.js": "c8ac7aab23a9de4850fedfc19252e706201df984",
-    "https://amolpro27.github.io/flintinnovations/main-es5.5c41346902681b41b14a.js": "af202127c8a48017300f3de37f1d2600d12dcc4d",
+    "https://amolpro27.github.io/flintinnovations/index.html": "7f05e11b6575f3bc43e42984fe93dab0175c8680",
+    "https://amolpro27.github.io/flintinnovations/main-es2015.b93e5db39b5cf6be3bb5.js": "ea8c7bacf11200e00b0948e026e34f1f4dbcab11",
+    "https://amolpro27.github.io/flintinnovations/main-es5.b93e5db39b5cf6be3bb5.js": "e76c0e450f960a52375ea86f2c0ed1ec9ad43bb2",
     "https://amolpro27.github.io/flintinnovations/manifest.webmanifest": "b5c8503c9e2f34bda8cf8d455aba9278e30faef6",
     "https://amolpro27.github.io/flintinnovations/owl.video.play.7f01b07148f205f6e825.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://amolpro27.github.io/flintinnovations/polyfills-es2015.e39d57420bbc09ea6a24.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "https://amolpro27.github.io/flintinnovations/polyfills-es5.50135ddf6e318e8abaaa.js": "ccfff1a6bd0b9531245e25bf3c0c8cf948ced8c2",
     "https://amolpro27.github.io/flintinnovations/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://amolpro27.github.io/flintinnovations/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://amolpro27.github.io/flintinnovations/styles.c50eb317b3f0f28499e3.css": "6ca00b0efa88b4f8f3d8aa24fbbd5f28d01cbe18"
+    "https://amolpro27.github.io/flintinnovations/styles.d8de034713859caaf3a3.css": "17ef6a45253ce9f337340a23f994dd297190bb7c"
   },
   "navigationUrls": [
     {
